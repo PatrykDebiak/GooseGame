@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<hasla>
+    <haslo>
+        <kategoria>jedzenie</kategoria>
+        <wyraz>pierogi</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>jedzenie</kategoria>
+        <wyraz>kwaśnica</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>alkohol</kategoria>
+        <wyraz>wódka</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>alkohol</kategoria>
+        <wyraz>piwo</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>meble</kategoria>
+        <wyraz>biurko</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>meble</kategoria>
+        <wyraz>taboret</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>elektryka</kategoria>
+        <wyraz>bezpieczniki</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>elektryka</kategoria>
+        <wyraz>kabel</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>gra planszowa</kategoria>
+        <wyraz>szachy</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>gra planszowa</kategoria>
+        <wyraz>chińczyk</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>gra karciana</kategoria>
+        <wyraz>makao</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>gra karciana</kategoria>
+        <wyraz>poker</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>sport</kategoria>
+        <wyraz>lekkoatletyka</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>przyroda</kategoria>
+        <wyraz>drzewo</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>zwierzęta</kategoria>
+        <wyraz>gekon</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>zwierzęta</kategoria>
+        <wyraz>skakun</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>zwierzęta</kategoria>
+        <wyraz>gwiazdonos</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>literatura</kategoria>
+        <wyraz>krzyżacy</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>jedzenie</kategoria>
+        <wyraz>gulasz</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>maszyna budowlana</kategoria>
+        <wyraz>zagęszczarka</wyraz>
+    </haslo>
+    <haslo>
+        <kategoria>maszyna budowlana</kategoria>
+        <wyraz>betoniarka</wyraz>
+    </haslo>
+</hasla>

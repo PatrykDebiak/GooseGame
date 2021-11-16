@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>GooseMan</title>
+        <link rel="icon" href="img/logo.png" type="image"/>
+        <script src="src/jquery-3.6.0.js"></script>
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="src/arkuszstylu.css">
+        <script src="src/script1.js"></script>
+    </head>
+    <body onload="wykonajXML()">
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/2-ffgjRGtiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <div id="baner">
+            <img alt="logo" src="img/gooselogo.png" id="logo">
+            <button class="wskazowka" onclick="funkcja()">★&nbsp<b>wskazówka</b></button>
+        </div>
+        <div id="menu">
+           
+        </div>
+        <div id="content">
+            <div id="bruh"></div>
+            <div id="k"></div>
+            <div id="haslo">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div> 
+            <div id="wisielec"><img src="img/zdj0.png" alt="goose"></div>
+            <div id="zasady">
+                <h2>Zasady gry</h2>
+                <p>
+                    Zostało wylosowane hasło, klikaj litery na <br>
+                    poniższej klawiaturze i odkrywaj hasło.<br>
+                    Jeśli dana litera znajduje się w wyrazie zostaje odkryta, <br>
+                    jeśli nie, zostaje narysowana część gęsi. <br>
+                    Gra kończy się gdy gracz odgadnie hasło(wygraną gracza),<br>
+                    lub gdy gracz popełni 6 błedów i gęś zostanie narysowana <br>
+                    w całości (przegrana gracza).
+                </p>
+            </div>
+            <div id="klawiatura">
+               
+                <form name="formu">
+                    <table>
+                        <tr>
+                            <th><div class="inp"> <input type="button" name="a" value="a" onclick="jd = formu.elements['a'].value; klik(0)"></div></th>
+                            <th><div class="inp"> <input type="button" name="a1" value="ą" onclick="jd = formu.elements['a1'].value; klik(1)"></div></th>
+                            <th><div class="inp"> <input type="button" name="b" value="b" onclick="jd = formu.elements['b'].value;klik(2)"></div></th>
+                            <th><div class="inp"> <input type="button" name="c" value="c" onclick="jd = formu.elements['c'].value;klik(3)"></div></th>
+                            <th><div class="inp"> <input type="button" name="c1" value="ć" onclick="jd = formu.elements['c1'].value;klik(4)"></div></th>
+                            <th><div class="inp"> <input type="button" name="d" value="d" onclick="jd = formu.elements['d'].value;klik(5)"></div></th>
+                            <th><div class="inp"> <input type="button" name="e" value="e" onclick="jd = formu.elements['e'].value;klik(6)"></div></th>
+                            <th><div class="inp"> <input type="button" name="e1" value="ę" onclick="jd = formu.elements['e1'].value;klik(7)"></div></th>
+                        </tr>
+                        <tr>
+                            <th><div class="inp"> <input type="button" name="f" value="f" onclick="jd = formu.elements['f'].value; klik(8)"></div></th>
+                            <th><div class="inp"> <input type="button" name="g" value="g" onclick="jd = formu.elements['g'].value; klik(9)"></div></th>
+                            <th><div class="inp"> <input type="button" name="h" value="h" onclick="jd = formu.elements['h'].value;klik(10)"></div></th>
+                            <th><div class="inp"> <input type="button" name="i" value="i" onclick="jd = formu.elements['i'].value;klik(11)"></div></th>
+                            <th><div class="inp"> <input type="button" name="j" value="j" onclick="jd = formu.elements['j'].value;klik(12)"></div></th>
+                            <th><div class="inp"> <input type="button" name="k" value="k" onclick="jd = formu.elements['k'].value;klik(13)"></div></th>
+                            <th><div class="inp"> <input type="button" name="l" value="l" onclick="jd = formu.elements['l'].value;klik(14)"></div></th>
+                            <th><div class="inp"> <input type="button" name="l1" value="ł" onclick="jd = formu.elements['l1'].value;klik(15)"></div></th>
+                        </tr>
+                        <tr>
+                            <th><div class="inp"> <input type="button" name="m" value="m" onclick="jd = formu.elements['m'].value; klik(16)"></div></th>
+                            <th><div class="inp"> <input type="button" name="n" value="n" onclick="jd = formu.elements['n'].value; klik(17)"></div></th>
+                            <th><div class="inp"> <input type="button" name="n1" value="ń" onclick="jd = formu.elements['n1'].value;klik(18)"></div></th>
+                            <th><div class="inp"> <input type="button" name="o" value="o" onclick="jd = formu.elements['o'].value;klik(19)"></div></th>
+                            <th><div class="inp"> <input type="button" name="o1" value="ó" onclick="jd = formu.elements['o1'].value;klik(20)"></div></th>
+                            <th><div class="inp"> <input type="button" name="p" value="p" onclick="jd = formu.elements['p'].value;klik(21)"></div></th>
+                            <th><div class="inp"> <input type="button" name="r" value="r" onclick="jd = formu.elements['r'].value;klik(22)"></div></th>
+                            <th><div class="inp"> <input type="button" name="s" value="s" onclick="jd = formu.elements['s'].value;klik(23)"></div></th>
+                        </tr>
+                        <tr>
+                            <th><div class="inp"> <input type="button" name="s1" value="ś" onclick="jd = formu.elements['s1'].value; klik(24)"></div></th>
+                            <th><div class="inp"> <input type="button" name="t" value="t" onclick="jd = formu.elements['t'].value; klik(25)"></div></th>
+                            <th><div class="inp"> <input type="button" name="u" value="u" onclick="jd = formu.elements['u'].value;klik(26)"></div></th>
+                            <th><div class="inp"> <input type="button" name="w" value="w" onclick="jd = formu.elements['w'].value;klik(27)"></div></th>
+                            <th><div class="inp"> <input type="button" name="y" value="y" onclick="jd = formu.elements['y'].value;klik(28)"></div></th>
+                            <th><div class="inp"> <input type="button" name="z" value="z" onclick="jd = formu.elements['z'].value;klik(29)"></div></th>
+                            <th><div class="inp"> <input type="button" name="z1" value="ź" onclick="jd = formu.elements['z1'].value;klik(30)"></div></th>
+                            <th><div class="inp"> <input type="button" name="z2" value="ż" onclick="jd = formu.elements['z2'].value;klik(31)"></div></th>
+                        </tr>
+                    </table>
+                </form>
+                
+            </div>
+            
+        </div>
+
+
+    </body>
+</html>
+
